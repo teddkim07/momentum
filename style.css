@@ -1,0 +1,87 @@
+.hidden {
+    display: none;
+}
+.img-0{
+    background: url("img/0.jpg.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100vw;
+    height: 100vh;
+}
+.img-1{
+    background: url("img/1.jpg.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100vw;
+    height: 100vh;
+
+}
+.img-2{
+    background: url("img/2.jpg.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#contents {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    color: white;
+    text-align: center;
+
+}
+
+#contents #greeting {
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+}
+
+#contents #quote {
+    font-size: 20px;
+}
+
+#contents #clock {
+    font-size: 150px;
+    margin-bottom: 0px;
+}
+
+#contents p {
+    margin-bottom:10px;
+    margin-top:10px;
+}
+
+.inputBox {
+    width:30%;
+    padding: 10px;
+    border: 1px solid rgba(255,255,255,0.25);
+    border-radius: 5px;
+    outline: none;
+    background: none;
+    color: white;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+ul{
+    margin-left: 33%;
+}
+
+ul li{
+    display: flex;
+}
+
+.blurWhite {
+    color: rgba(255, 255, 255, 0.4);
+    text-decoration: line-through;
+    transition: 0.3s;
+}
+
+.white {
+    color: white;
+    transition: 0.3s;
+}
